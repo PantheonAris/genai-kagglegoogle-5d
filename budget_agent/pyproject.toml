@@ -1,0 +1,12 @@
+[project]
+name = "budget_agent"
+version = "0.1.0"
+description = "Budget agent for the financial advisory system."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "google-cloud-secret-manager",
+    "structlog",
+]

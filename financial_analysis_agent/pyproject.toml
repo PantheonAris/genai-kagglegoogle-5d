@@ -1,0 +1,14 @@
+[project]
+name = "financial_analysis_agent"
+version = "0.1.0"
+description = "Financial analysis agent for the financial advisory system."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "google-cloud-secret-manager",
+    "yfinance",
+    "httpx",
+    "structlog",
+]
